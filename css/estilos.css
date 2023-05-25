@@ -1,0 +1,202 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.html {
+  font-size: 10px;
+  width: 100%; }
+
+.chatWhasapp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;}
+
+/*FOOTER*/
+.RedesSociales {
+  margin-top: 40px;
+  height: 20vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box; }
+  .RedesSociales .ContenedorIconosRedes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .RedesSociales .ContenedorIconosRedes .icon {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      margin: 20px;
+      border-radius: 50%;
+      transition: all .8s;
+      cursor: pointer; }
+      .RedesSociales .ContenedorIconosRedes .icon i {
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.7rem; }
+      .RedesSociales .ContenedorIconosRedes .icon:hover {
+        background-color: #d21071;
+        box-shadow: 0 0 20px #d21071; }
+      .RedesSociales .ContenedorIconosRedes .icon:hover:nth-child(2) {
+        background-color: #1877f2;
+        box-shadow: 0 0 20px #1877f2; }
+      .RedesSociales .ContenedorIconosRedes .icon:hover:nth-child(3) {
+        background-color: #06b848;
+        box-shadow: 0 0 20px #06b848; }
+      .RedesSociales .ContenedorIconosRedes .icon:hover:nth-child(4) {
+        background-color: #1da1f2;
+        box-shadow: 0 0 20px #1da1f2; }
+      .RedesSociales .ContenedorIconosRedes .icon:hover circle {
+        stroke-dasharray: 220; }
+      .RedesSociales .ContenedorIconosRedes .icon svg circle {
+        stroke-dasharray: 150;
+        transition: all .8s ease-in-out; }
+
+.derechos {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  padding-bottom: 30px; }
+
+/*SEPARADOR BLANCO*/
+main .SeparadorHeaderMain {
+  height: 15px; }
+
+/*QUE OFRECEMOS*/
+.QueOfrecemos {
+  background-color: #121515;
+  padding-bottom: 2rem; }
+  .QueOfrecemos img {
+    width: 70%;
+    padding-top: 10%;
+    margin-left: 15%; }
+  .QueOfrecemos div H1 {
+    font-size: 2.5rem;
+    font-family: anton;
+    letter-spacing: 2px;
+    font-style: italic;
+    margin-top: 1%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1.2%;
+    text-align: center;
+    font-size: 260%;
+    color: white; }
+  .QueOfrecemos .TituloYParrafos {
+    padding-top: 6rem; }
+  .QueOfrecemos .parrafos {
+    font-family: poppins;
+    font-size: 1.5rem;
+    color: white; }
+
+/*ACTIVIDADES*/
+.actividadesContenedor h3 {
+  font-size: 2.5rem;
+  font-family: anton;
+  letter-spacing: 2px;
+  font-style: italic;
+  margin-top: 1%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 1.2%;
+  text-align: center;
+  padding-top: 1.5%; }
+
+.actividadesContenedor .TipoDeActividades div {
+  padding: 1rem !important; }
+
+.actividadesContenedor .TipoDeActividades p {
+  font-family: poppins;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: transform 3s;
+  margin-bottom: 5%;
+  background-color: #F8C216;
+  border-radius: 10px; }
+
+.actividadesContenedor .TipoDeActividades img {
+  box-shadow: 1px 2px 4px #363532;
+  transition: transform 0.5s; }
+  .actividadesContenedor .TipoDeActividades img:hover {
+    transform: scale(1.1, 1.1); }
+
+/*NUESTROS VALORES*/
+.valoresContenedor .NuestrosValoresTitulo {
+  font-size: 2.5rem;
+  font-family: anton;
+  letter-spacing: 2px;
+  font-style: italic;
+  margin-top: 1%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 1.2%;
+  text-align: center;
+  padding: 30px; }
+
+.valoresContenedor .valores ul {
+  font-family: poppins;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+  padding-right: 2rem;
+  background-color: #F8C216;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.valoresContenedor .listadoDeAcciones {
+  font-family: poppins;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 4rem; }
+
+/*COACHES DE SPORTCLUB*/
+.coaches H3 {
+  font-size: 2.5rem;
+  font-family: anton;
+  letter-spacing: 2px;
+  font-style: italic;
+  margin-top: 1%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 1.2%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.coaches .CoachesFotosYNombres {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  padding-bottom: 30px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+  .coaches .CoachesFotosYNombres p {
+    font-family: poppins;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 14%; }
+  .coaches .CoachesFotosYNombres img {
+    box-shadow: 1px 2px 4px #363532;
+    border-radius: 50%;
+    margin-left: 14%;
+    transition: transform 0.5s, background-color 2s; }
+    .coaches .CoachesFotosYNombres img:hover {
+      transform: scale(1.1, 1.1);
+      background-color: rgba(0, 0, 0, 0.441) cover; }
+
+/*VERSIÓN MOBILE*/
+@media screen and (max-width: 768px) {
+  .actividadesContenedor {
+    margin-left: 10%; } }
